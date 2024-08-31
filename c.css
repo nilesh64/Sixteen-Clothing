@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-items{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.top-1{
+    
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.top-1 span{
+    color: red;
+}
+.nav-items a{
+    color: white;
+    border: none;
+}
+.nav-items a:hover{
+    color: red;
+}
+.bottom {
+    background: url('slide_01.jpg');
+    width: 100%;
+    height: 100vh;
+    padding: 300px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bottom h2{
+    color: red;
+}
+.bottom h1{
+    letter-spacing: 10px;
+    font-weight: 100px;
+    font-size: 58px;
+}
+.middle{
+    /* color: blue; */
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    /* flex-wrap: wrap; */
+
+}
+.middle-items{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 20px;
+    margin-top: 40px;
+    /* border: 2px solid rgb(197, 172, 172); */
+} 
+.middle-items-top{
+    width: 100%;
+}
+.middle-items-top img{
+    width: 100%;
+}
+.middle-items-bottom-1{
+    /* display: flex; */
+/* justify-content: space-between; */
+/* align-items: center; */
+margin: 10px;
+padding: 10px 20px;
+}
+.middle-items-bottom-1 span{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    
+}
+.middle-items-bottom-1 h2{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(89, 0, 255, 0.844);
+    font-size: 20px;
+    font-weight: 400;
+}
+.middle-items-bottom-2 h3{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: red;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+.middle-items-bottom p{
+    margin: 20px;
+    font-weight: 400;
+    padding: 10px 10px;
+
+}
+article h2{
+    margin: 10px;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+article{
+    width: 80%;
+    /* border: 2px solid rgb(197, 172, 172); */
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding: 10px 20px; */
+}
+.about-left{
+    margin: 10px;
+    padding: 10px 30px;
+}
+.about-left h4{
+    color: rgb(117, 117, 193);
+    padding: 10px ;
+    font-size: 20px;
+}
+.about-left p{
+    padding: 10px;
+    word-spacing: 3px;
+    line-height: 30px;
+    font-weight: 100;
+}
+.about-left ul{
+    padding: 20px;
+    line-height: 30px;
+    /* margin: 10px; */
+    font-weight: 100;
+}
+.about-left ul li{
+    /* margin: 10px 0px; */
+    list-style: square;
+    list-style-position: inside;
+}
+.about-left ul li:hover{
+    color: red;
+    transition: 3 sec;
+}
+.about-left button{
+    border: 0;
+    border-radius: 10px;
+    width: 20%;
+    color: rgb(245, 242, 242);
+    background-color: red;
+    padding: 10px;
+    margin-left: 20px;
+}
+.about-left button:hover{
+    background-color: black;
+}
+.about-right{
+    /* margin: 10px; */
+    padding: 10px;
+}
+.about-right img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rgb(197, 172, 172); */
+    padding: 20px 30px;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 4%;
+    background-color: rgb(231, 243, 246);
+    
+}
+footer .footer-top{
+    color: rgb(133, 139, 194);
+    font-weight: 100;
+    padding: 20px;
+    /* margin: 10px; */
+}
+footer .footer-top span{
+    color: rgb(70, 70, 160);
+}
+footer .footer-top p{
+    /* margin: 10px; */
+    /* padding: 10px; */
+    line-height: 40px;
+    color: rgb(28, 25, 25);
+}
+footer button{
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+padding: 10px;
+margin-right: 10px;
+}
+footer button:hover{
+    background-color: black;
+}
+.last{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(197, 172, 172); */
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
